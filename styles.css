@@ -1,0 +1,69 @@
+body{
+   background-color: rgb(36, 206, 96) ; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.cartoes {
+    display: flex;
+    gap: 20px;
+}
+
+
+nav li {
+    display: inline;
+    font-family: "Iceland", sans-serif;
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+    font-family: "Iceland", sans-serif;
+}
+
+.cartao {
+    background-color: #ffffff;
+    padding: 8px;
+    font-family: "Iceland", sans-serif;
+}
+
+.cartao:hover {
+    background-color: rgb(36, 206, 96);
+    transform: scale(1.1);
+}
+
+
+.logo {
+    height: 200px;
+}
+
+.titulo{
+ text-align: center;
+ font-family: "cal sans", sans-serif;
+ background-color: #ffffff;
+}
+
+.cal-sans-regular{
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.iceland-regular{
+    font-family: "Iceland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.irmagens{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+  
